@@ -1,0 +1,73 @@
+/* Hide Streamlit header bar */
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+/* Light, modern font for the entire app */
+html, body, [data-testid="stAppViewContainer"], .block-container {
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    background-color: #202123 !important;
+    color: #ececf1 !important;
+}
+
+/* Main content container */
+.block-container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 900px;
+}
+
+/* Upload box styling */
+.dark-upload-box {
+    background-color: #343541;
+    padding: 1.75rem;
+    border-radius: 16px;
+    color: #ececf1;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+
+/* Style file uploader labels */
+.dark-upload-box .stFileUploader label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Headers */
+.header-text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.subheader-text {
+    font-size: 1.1rem;
+    color: #a6aab0;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #10a37f;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.stButton > button:hover {
+    background-color: #0e9574;
+}
