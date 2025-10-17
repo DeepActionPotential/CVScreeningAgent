@@ -28,7 +28,6 @@ A Streamlit app that parses candidate CVs, analyzes job descriptions, matches sk
 
 ## Demo
 
-Real demo assets are available in `./demo/`:
 
 - Screenshot 1: `./demo/demo.png`
 - Screenshot 2: `./demo/demo2.png`
