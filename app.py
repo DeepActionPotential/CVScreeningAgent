@@ -47,7 +47,7 @@ screening_manager = CVScreeningManager(
     red_flag_detector_agent=red_flag_detector_agent,
 )
 
-# === PAGE ROUTING ===
+# === PAGE ROUTING ==
 
 st.set_page_config(
             page_title="CV Screening Assistant",
